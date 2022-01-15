@@ -46,7 +46,7 @@ ul.nav{
     color: azure;
     padding: 5px 20px;
     font-weight: 400;
-    padding: 1.2em;
+    padding: 1em;
 }
 
 li.kembali{
@@ -64,8 +64,8 @@ li :hover{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.deskripsi, .berkembang, .punah{
-    padding: 2em;
+.deskripsi, .berkembang, .makanan, .punah{
+    padding: 4em;
 }
 
 .konten-deskripsi{
@@ -88,13 +88,10 @@ li :hover{
     flex-wrap: wrap;
 }
 
-/* .herbivora, .karnivora{
-    display: inline-block;
-    width: 40%;
-    margin: auto;
-    margin-left: 5em;
-    border: groove 0.2em;
-} */
+.omnivora{
+    padding-top: 2em;
+}
+
 
 .konten-makanan {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -105,11 +102,17 @@ li :hover{
     text-align: justify;
 }
 
+/* berkembang-biak */
 .ovipar, .vivipar{
     display: inline-block;
     width: 40%;
-    margin: auto;
+    margin-top: 2em;
     margin-left: 5em;
+}
+
+.ovovivipar{
+    padding-top: 2em;
+    text-align: center;
 }
 
 .konten-berkembang {
@@ -154,7 +157,7 @@ footer{
 
 @media only screen and (max-width : 985px){
     html{
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .hp {
@@ -166,6 +169,6 @@ footer{
     }
 
     .materi{
-        max-width: 80%;
+        list-style: none;
     }
 }
