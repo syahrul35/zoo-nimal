@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .landing-page{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.644)), url(./home.jpg);
     background-attachment: fixed;
@@ -60,7 +64,7 @@ li :hover{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.deskripsi, .makanan, .berkembang, .punah{
+.deskripsi, .berkembang, .punah{
     padding: 2em;
 }
 
@@ -75,13 +79,22 @@ li :hover{
 }
 
 
-.herbivora, .karnivora{
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+/* .herbivora, .karnivora{
     display: inline-block;
     width: 40%;
     margin: auto;
     margin-left: 5em;
     border: groove 0.2em;
-}
+} */
 
 .konten-makanan {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
