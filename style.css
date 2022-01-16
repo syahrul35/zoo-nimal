@@ -148,7 +148,7 @@ ul.nav {
     margin-top: 2em;
     display: inline-block;
     border: solid;
-    margin-left: 1em;
+    margin-left: 0.5em;
     min-width: 285px;
 }
 
@@ -156,7 +156,7 @@ ul.nav {
     margin-top: 2em;
     display: inline-block;
     border: solid;
-    margin-left: 1em;
+    margin-left: 0.5em;
     min-width: 285px;
 }
 
@@ -164,7 +164,7 @@ ul.nav {
     margin-top: 2em;
     display: inline-block;
     border: solid;
-    margin-left: 1em;
+    margin-left: 0.5em;
     min-width: 285px;
     vertical-align: bottom;
 }
