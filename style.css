@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    /* overflow-x: hidden; */
 }
 h1,h2,h3 {
     font-family: 'Oswald', sans-serif;
@@ -46,7 +47,7 @@ ul.nav {
     padding: 0;
     margin: 0;
     text-align: right;
-    background-color: rgb(110, 163, 145);;
+    background-color: rgb(110, 163, 145);
 }
 
 .nav > li {
@@ -55,10 +56,11 @@ ul.nav {
     color: white;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
+    /* vertical-align: ; */
 }
 
 .nav > li > a {
-    padding: 1em 2em;
+    padding: 1em 1.5em;
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -142,32 +144,22 @@ ul.nav {
 }
 
 .container{
-    width: 100%;
-}
-.monyet, .ajg, .lumba{
-    margin-top: 2em;
-    display: inline-block;
-    border: solid;
-    margin-left: 0.5em;
-    min-width: 285px;
+    max-width: 100%;
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.kerang, .dodo, .sapi{
+.hewanpunah{
+    width: 30%;
     margin-top: 2em;
-    display: inline-block;
-    border: solid;
-    margin-left: 0.5em;
-    min-width: 285px;
 }
 
-.quagga, .rusa, .elang{
-    margin-top: 2em;
-    display: inline-block;
-    border: solid;
-    margin-left: 0.5em;
-    min-width: 285px;
-    vertical-align: bottom;
+.hewanpunah img{
+    padding-top: 1em;
 }
+
 
 /* footer */
 footer {
@@ -176,4 +168,22 @@ footer {
     padding: 1.5em 0;
     color: white;
     background-color: rgb(110, 163, 145);
+}
+
+
+/* responsive */
+@media only screen and (max-width: 870px){
+    ul.nav.desktop > li.tidak{
+        display: none;
+    }
+
+    .hewanpunah{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .hewanpunah{
+        width: 100%;
+    }
 }
